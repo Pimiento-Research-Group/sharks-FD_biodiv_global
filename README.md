@@ -50,7 +50,6 @@ install.package("wesanderson")
 
 ```
 
-## FunCodes
 The scripts are as follows
 1. Fix_Synonyms.R: Identifies discrepancies in species names due to synonyms between distribution data (downloaded from IUCN) and trait data. Produces:
   - iucn.names_traits.names.RData

@@ -1,6 +1,6 @@
 # sharks-FD_biodiv_global
 
-## R code for the analysis of: Elasmobranch functional diversity is highly vulnerable and supported by unique species and locations worldwide
+## Elasmobranch functional diversity is highly vulnerable and supported by unique species and locations worldwide
 
 
 ### Authors
@@ -9,7 +9,11 @@ Catalina Pimiento, Camille Albouy, Daniele Silvestro, Theophile Mouton, Laure Ve
 
 ### Intro
 
-This folder contains scripts for the FUNCTIONAL DIVERSITY analysis of data in R. Required packages: `tidyverse`, `dplyr`, `tidyr`, `readxl`,`stringr`, `purrr`, `readxl`, `tidyselect`, `data.table`, `reshape2` and `janitor` for data handling and manipulation; `ade4`,`geometry`,`raster`,`missForest`,`mFD` and `vegan` for analyses; and `cowplot`, `grid`, `visreg`, `ggcorrplot`,`wesanderson`,`gghighligh` and `RColorBrewer` for plotting.
+This folder contains R code, data and outputs for all analyses in this paper. There are 4 main folders: functional diversity analyses, phylogenetic analysis, congruence mapping and MPAs.
+
+### Functional Diversity Analyses
+
+The required packages for the functional diversity analyses are: `tidyverse`, `dplyr`, `tidyr`, `readxl`,`stringr`, `purrr`, `readxl`, `tidyselect`, `data.table`, `reshape2` and `janitor` for data handling and manipulation; `ade4`,`geometry`,`raster`,`missForest`,`mFD` and `vegan` for analyses; and `cowplot`, `grid`, `visreg`, `ggcorrplot`,`wesanderson`,`gghighligh` and `RColorBrewer` for plotting.
 
 These can be downloaded and installed using the following commands:
 
@@ -46,7 +50,7 @@ install.package("wesanderson")
 
 ```
 
-### Codes
+## FunCodes
 The scripts are as follows
 1. Fix_Synonyms.R: Identifies discrepancies in species names due to synonyms between distribution data (downloaded from IUCN) and trait data. Produces:
   - iucn.names_traits.names.RData
@@ -71,14 +75,12 @@ The scripts are as follows
   - fonction_FRIC_Global_full.R
   - get_indicator_function 2.R
   
-All codes and data for the phylogenetic and spatial analyses are provided in separate folders as follows:
-
-Phylogenetic analyses
+### Phylogenetic analyses
   - The phylo_analysis folder is related to all the analyses and data for quantifying species and assemblage-level phylogenetic metrics. 
     It produces 2 objects used in FD-Analyses.Rmd
     - Res_HED_sharks.rds
     - Res_HEDGE_sharks.rds
-MPA_analysis
+### MPA_analysis
   - The MPA_analysis folder includes all the information to quantify and map MPAs
-Spatial analyses
+### Spatial analyses
  - The congruence_mapping folder includes all the analyses made to identify and map the hotspots and to quantify the congruence among metrics (including fishing pressure).

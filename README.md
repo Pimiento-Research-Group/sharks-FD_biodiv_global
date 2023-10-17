@@ -79,7 +79,7 @@ The scripts are as follows
     It produces 2 objects used in FD-Analyses.Rmd
     - Res_HED_sharks.rds
     - Res_HEDGE_sharks.rds
+### Congruence analyses
+ - The congruence_mapping folder includes all the analyses made to identify and map the hotspots and to quantify the congruence among metrics (including fishing pressure).
 ### MPA_analysis
   - The MPA_analysis folder includes all the information to quantify and map MPAs
-### Spatial analyses
- - The congruence_mapping folder includes all the analyses made to identify and map the hotspots and to quantify the congruence among metrics (including fishing pressure).
